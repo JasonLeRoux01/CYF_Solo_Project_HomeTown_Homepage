@@ -1,7 +1,6 @@
 body {
     text-align: center;
     font-family: "SUSE", sans-serif;
-    font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
     background: linear-gradient(#ee113d, hsl(59, 61%, 45%));
@@ -12,13 +11,12 @@ body {
     background: url(TableMountain.jpeg);
     background-size: cover;
     padding: 130px 100px;
-    margin: -15 -15 20px -15;
+    margin: -15px -15px 20px -15px;
     font-family: "Noto Serif TC", serif;
-    font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
     font-size: 20px;
-    text-shadow: 2 2 5px black;
+    text-shadow: 2px 2px 5px black;
 }
 
 
