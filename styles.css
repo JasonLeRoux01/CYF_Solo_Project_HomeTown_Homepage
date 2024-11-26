@@ -1,0 +1,80 @@
+body {
+    text-align: center;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    background: linear-gradient(#ee113d, hsl(59, 61%, 45%));
+    color: #ffffff;
+}
+
+#header {
+    background: url(images/TableMountain.jpeg);
+    background-size: cover;
+    padding: 130px 100px;
+    margin: -15 -15 20px -15;
+    font-family: "Noto Serif TC", serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    text-shadow: 2 2 5px black;
+}
+
+
+/* flexbox container for 3 lists */
+.information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px dotted white;
+    border-radius: 2%;
+    margin-bottom: 0px;
+}
+
+.links-info {
+    font-size: 15px;
+}
+
+/* flexbox container for 3 images */
+.flexbox-images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+
+#honest-burgers, #richmond-park, #sky-garden {
+  width: 250px;
+  height: 200px;
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(7, 192, 161);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(7, 192, 161);
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+.align-left {
+    text-align: left;
+}
+
+.suggestions {
+    margin-top: 45px;
+}
